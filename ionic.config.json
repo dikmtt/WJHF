@@ -1,0 +1,7 @@
+{
+  "name": "WJHF_Skripsi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
