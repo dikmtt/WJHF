@@ -1,0 +1,114 @@
+.besthotel-area {
+    display: flex;
+}
+
+.hotelres-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ion-color-secondary);
+    color: var(--ion-color-secondary-contrast);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 60vh;
+}
+
+.hotelres-comp {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hotelres-img {
+    width: 150px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.hotelres-price {
+    font-size: 80%;
+}
+
+.hotelres-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.hotelres-iconinner {
+    margin-left: 2px;
+}
+
+.hotelRank {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.hotelName {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.mainarea {
+    width: 80%;
+    padding: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.hehe {
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.maincol {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+}
+
+.resulttitle {
+    font-size: 300%;
+    font-weight: bold;
+    margin: 10px
+}
+
+.res-buttonsArea {
+    padding-bottom: 10px;
+}
+
+@media (width < 800px) {
+    .besthotel-area {
+        flex-direction: column;
+    }
+    .hotelres-bg {
+        width: 48vh;
+    }
+    .hotelres-img {
+        width: 100px;
+    }
+    .hehe {
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .resulttitle {
+        font-size: 130%;
+    }
+    .hotelName {
+        font-size: 120%;
+    }
+
+    .hotelNameWrapper {
+        white-space: "normal";
+        overflow: "visible";
+        text-overflow: 'unset';
+        word-break: "break-word";
+    }
+}

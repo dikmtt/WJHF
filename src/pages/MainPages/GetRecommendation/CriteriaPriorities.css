@@ -1,0 +1,51 @@
+.tableCol {
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+}
+
+.criteriapriority-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.criteriapriority-selectcrits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.criteriapriority-versus {
+    margin: 0 5px;
+}
+
+.criteriapriority-button {
+    width: 200px;
+}
+
+@media(width < 800px) {
+    .criteriapriority-title {
+        max-width: 500px;
+        font-size: 100%;
+    }
+
+    .recsystems-title {
+        white-space: "normal";
+        overflow: "visible";
+        text-overflow: 'unset';
+        word-break: "break-word";
+    }
+
+    .criteriapriority-selectcrits {
+        flex-direction: column;
+    }
+
+    .criteriapriority-button {
+        width: 120px;
+    }
+}

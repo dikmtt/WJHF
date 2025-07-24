@@ -1,0 +1,55 @@
+.rev-grid {
+    background-color: var(--ion-color-medium);
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.rev-avatar{}
+
+.rev-uname {
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.rev-date {
+    color: lightgray;
+}
+
+.rev-content {
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+.rev-rating {
+    font-size: 1.6em;
+}
+
+.rev-rating-icon {
+    margin-left: 5px;
+}
+
+@media(width < 800px) {
+    .rev-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rev-uname {
+        font-size: 1.5em;
+        padding-bottom: 5px;
+    } 
+
+    .rev-date {
+        font-size: 80%;
+    }
+
+    .rev-content {
+        padding-top: 5px;
+        font-size: 90%;
+    }
+
+    .rev-rating {
+        font-size: 120%;
+    }
+}

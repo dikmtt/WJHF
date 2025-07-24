@@ -1,0 +1,16 @@
+.tableCol {
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+}
+
+.rowHeading {
+    background-color: var(--ion-color-primary);
+    overflow: hidden;
+}
+
+.title {
+    font-size: 200%;
+    margin: 10px;
+    text-align: center;
+}

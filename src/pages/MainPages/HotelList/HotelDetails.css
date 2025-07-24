@@ -1,0 +1,138 @@
+ion-accordion {
+    flex: 1;
+}
+
+ion-accordion::part(content) {
+    flex-grow: 1;
+}
+
+.hoteldetails-imgcol {
+    flex: 0 0 450px;
+}
+
+.hoteldetails-img {
+    width: 500px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.hoteldetails-detailscol {
+    white-space: normal !important;
+    flex: 1 1 auto;
+}
+.hoteldetails-title {
+    font-size: 250%;
+}
+.hoteldetails-class {
+    font-size: 170%;
+}
+.hoteldetails-address {
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: block;
+}
+.hoteldetails-price {
+    font-size: 180%;
+}
+.hoteldetails-pricedetails {
+    font-size: 100%;
+}
+.hoteldetails-facilities {
+    font-size: 300%;
+}
+
+.facilities-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hoteldetails-avg1, .hoteldetails-avg3 {
+    font-size: 110%;
+}
+
+.hoteldetails-avg2 {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.hoteldetails-avg4 {
+    font-size: 110%;
+    margin: 0 5px;
+}
+
+.hoteldetails-favcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.hoteldetails-like1 {
+    font-size: 110%;
+    margin: 0 5px;
+    align-items: center;
+}
+
+.hoteldetails-abouthotel {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.hoteldetails-descbox {
+    border: 2px var(--ion-color-secondary) solid;
+}
+
+.hoteldetails-desc {
+    font-size: 110%;
+}
+
+@media(width < 800px) {
+    .hoteldetails-img {
+        aspect-ratio: 1.5/1;
+    }
+
+    .hoteldetails-title {
+        font-size: 150%;
+    }
+
+    .hoteldetails-class {
+        font-size: 100%;
+    }
+
+    .hoteldetails-price {
+        font-size: 130%;
+    }
+
+    .hoteldetails-pricedetails {
+        font-size: 80%;
+    }
+
+    .hoteldetails-facilities {
+        font-size: 250%;
+    }
+
+    .hoteldetails-avg1, .hoteldetails-avg3 {
+        font-size: 60%;
+    }
+    
+    .hoteldetails-avg2 {
+        font-size: 100%;
+    }
+    
+    .hoteldetails-avg4 {
+        font-size: 130%;
+    }
+
+    .hoteldetails-like1 {
+        font-size: 80%;
+    }
+    
+    .hoteldetails-desc {
+        font-size: 110%;
+    }
+
+    .hoteldetails-desc {
+        font-size: 90%;
+    }
+}

@@ -1,0 +1,52 @@
+.pagetitle {
+    font-size: 200%;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pagination-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pagination-text {
+    font-size: 150%;
+    margin: 0 10px;
+}
+
+.submitbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newhotel-input {
+    margin: 5px;
+}
+
+.newhotel-imageinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 0.5px solid var(--ion-color-medium);
+    border-radius: 5px;
+}
+
+.newhotel-imagetext {
+    margin-left: 5px;
+}
+
+@media(width < 800px) {
+    .pagetitle {
+        font-size: 150%;
+        margin: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,29 @@
+.centeredcols-prof {
+    display: flex;
+    align-items: center;
+}
+
+.pp-prof {
+    margin-left: 5px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.bio-items {
+
+}
+
+@media(width < 800px) {
+    .pp-prof {
+        width: 100%;
+    }
+
+    .bio-title {
+        font-size: 90%;
+    }
+    .bio-items {
+        font-size: 80%;
+    }
+}

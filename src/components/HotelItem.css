@@ -1,0 +1,54 @@
+.hotelimg-list {
+    aspect-ratio: 1.5/1;
+    width: 50%;
+    object-fit: cover;
+}
+
+.hotelitem-goToButton {
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--ion-color-tertiary);
+    padding: 7px 0;
+}
+
+.hotelitem-menutext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ion-color-secondary);
+}
+
+.hotelitem-menutexticon {
+    margin-left: 2px;
+}
+
+.addHotelButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(width >= 800px) {
+    .texthotelname-list {
+        font-size: 200% !important;
+    }
+
+    .texthoteladd-list {
+        font-size: 100%;
+    }
+}
+
+@media(width < 800px) {
+    .texthotelname-list {
+        font-size: 100%;
+    }
+    .texthoteladd-list {
+        font-size: 60%;
+    }
+
+    .addHotelButton {
+        width: 100vw;
+    }
+}
